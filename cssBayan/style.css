@@ -5,7 +5,11 @@ body {
     line-height: 1;
     background-color: rgb(232, 230, 211);
 }
-
+.h1 {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
 .bayan {
     max-width: 50%;
     margin: 1% auto;
@@ -17,7 +21,7 @@ body {
 }
 .bayan-title {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     color: #13110f;
     cursor: pointer;
     padding: 1rem 2rem;
