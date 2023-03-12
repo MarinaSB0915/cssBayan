@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 1;
+    background-color: rgb(232, 230, 211);
+}
+
+.bayan {
+    max-width: 50%;
+    margin: 5% auto;
+
+}
+.bayan-item {
+    margin-bottom: 2%;
+    border: 1px solid #c47311;  
+}
+.bayan-title {
+    display: flex;
+    justify-content: center;
+    color: #13110f;
+    cursor: pointer;
+    padding: 1em 2em;
+    transition:  .2s ease-out;
+    font-size: 3vh;
+    font-weight: 600;
+}
+.bayan-title:hover {
+    background-color: #c47311;
+    
+}
+.bayan-input {
+    width: 0;
+    height: 0;
+    appearance: none;
+    position: absolute;
+}
+.bayan-img {
+    display: none;
+    justify-content: center;
+    /*padding: 1em  2em;*/
+    width: 10vw;
+    height: 10vh;
+    color: #c47311;
+    font-size: 20vh;
+    margin:0 0 5%;
+}
+.bayan-input:checked ~ .bayan-img {
+    display: block;
+}
