@@ -40,6 +40,13 @@ body {
     position: absolute;
 }
 
+.bayan-input:checked ~ .bayan-img {
+    display: block;
+}
+.bayan-input:checked ~ .bayan-title {
+    background-color:  background-color: #c47311;
+    
+}
 
 .bayan-img {
     display: none;
@@ -55,7 +62,4 @@ img {
     height: 100%;
     object-fit: contain;
     object-position: 0 0;
-}  
-.bayan-input:checked ~ .bayan-img {
-    display: block;
 }
